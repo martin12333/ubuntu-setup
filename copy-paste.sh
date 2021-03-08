@@ -5,7 +5,8 @@
 /usr/bin/sudo apt-get install     git
 
 cd
-git clone https://github.com/actes/ubuntu-setup
+#git clone https://github.com/actes/ubuntu-setup
+git clone https://github.com/martin12333/ubuntu-setup
 
 cd
 mkdir dotfiles.git
@@ -15,4 +16,5 @@ cd dotfiles.git
 git remote add origin https://github.com/martin12333/dotfiles-20b
 git pull -vv origin master
 
-history -a
+history -a ; history
+
